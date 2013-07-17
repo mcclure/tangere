@@ -23,7 +23,8 @@ typedef unsigned int       uint;
 typedef unsigned long int  ulong;
 typedef unsigned short int ushort;
 
-typedef long long int          int64_t;
-typedef unsigned long long int uint64_t;
+// typedef long long int          int64_t;
+// typedef unsigned long long int uint64_t;
+#include <stdint.h>
 
 #endif // Common_Types_h

@@ -22,6 +22,7 @@
 using std::istream;
 using std::ostream;
 
+#include <Common/Utility/MinMax.t>
 #include <Math/Math.h>
 
 namespace FileIO

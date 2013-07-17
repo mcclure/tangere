@@ -18,12 +18,30 @@
 #ifndef Math_Math_h
 #define Math_Math_h
 
+#include <cmath>
+
 #include <Math/FixedPoint.h>
 #include <Math/FixedPoint.t>
-#include <Math/Point.t>
-#include <Math/Vector.t>
+// #include <Math/Point.t>
+// #include <Math/Vector.t>
 
 #include <Common/Types.h>
+
+
+namespace Math
+{
+
+  /////////////////////////////////////////////////////////////////////////////
+  // Forward declarations
+
+  template<typename T>
+  class Point;
+
+  template<typename T>
+  class Vector;
+
+} // namespace Math
+
 
 ////////////////////////////////////////////////////////////////////////////////
 // MathF namespace
@@ -181,7 +199,7 @@ namespace Math
   template<>
   inline int Pow(const int& x, const int& y)
   {
-    // XXX(cpg) - now yet implemented
+    // XXX(cpg) - not yet implemented
     return 1;
   }
 
@@ -194,5 +212,8 @@ namespace Math
   }
 
 } // namespace Math
+
+#include <Math/Point.t>
+#include <Math/Vector.t>
 
 #endif // Math_Math_h
