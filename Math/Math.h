@@ -1,5 +1,6 @@
 
 /*
+ *  Copyright 2013 Christiaan Gribble <cgribble[]rtvtk org>
  *  Copyright 2009, 2010 Grove City College
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
