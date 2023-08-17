@@ -1,3 +1,6 @@
+This is the sample code from the following 2009 academic paper: https://www.researchgate.net/publication/220494169_Integer_Ray_Tracing
+
+It has been trivially modified by Andi McClure to run in modern CMake. Ignore the below installation instructions and run [these](run.txt).
 
 -----------
   tangere
