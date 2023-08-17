@@ -96,7 +96,7 @@ namespace FileIO
 
       ofstream out(fname.str().c_str());
       if (!out.is_open())
-        FatalError("Failed to open \"" << fname << " for writing" << endl);
+        FatalError("Failed to open \"" << fname.str() << " for writing" << endl);
 
       out << "P6" << endl;
       out << xres << ' ' << yres << endl;
@@ -124,7 +124,7 @@ namespace FileIO
 
       ofstream out(fname.str().c_str(), ios::binary);
       if (!out.is_open())
-        FatalError("Failed to open \"" << fname << " for writing" << endl);
+        FatalError("Failed to open \"" << fname.str() << " for writing" << endl);
 
       // Write BMP header
       char data[3] = { 'B', 'M', 0 };
